@@ -1,0 +1,114 @@
+body{
+    max-width: 800px;
+    margin: auto;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#case{
+    width: 600px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+    background-color:rgb(252, 113, 189);
+    border-radius: 50% / 60% 60% 40% 40%;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.5);
+}
+
+#titulo{
+    font: normal 2.6rem arial;
+    color: var(--color-cream);    
+}
+
+#screen{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    border-radius: 10%;
+    background-color: rgb(75, 90, 50);
+    padding: 20px 40px;
+}
+
+#name{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#char{
+    max-height: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#actions{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons{
+    width: 280px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btn-left{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: var(--color-cream);
+    cursor: pointer;
+}
+
+#btn-strt{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: var(--color-cream);
+    cursor: pointer;
+}
+
+#btn-right{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: var(--color-cream);
+    cursor: pointer;
+}
+
+#healthbar{
+    min-width: 100%;
+    min-height: 25px;
+    border: solid 3px black;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: 1fr;
+    gap: 1px;
+}
+
+.health{
+    background: black;
+}
+
+.active{
+    border: 2px solid black;
+    border-radius: 4px;
+}

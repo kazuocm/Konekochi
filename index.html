@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/var.css">
+    <link rel="stylesheet" href="style/global.css">
+    <script defer src="script.js"></script>
+    <title>Konekochi</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="case">
+            <div id="titulo">
+                <h3>Konekochi</h3>
+            </div>
+            <div id="screen">
+                <div id="name">
+                    <p>
+                        mumi
+                    </p>
+                </div>
+                <div id="healthbar">
+                    <div class="health"></div>
+                </div>
+                <div id="char">
+                    <img src="img/60140af4f95f9a0a06b541e6b9b3cb26.png" alt="8-bit cat">
+                </div>
+                <div id="actions">
+                    <i id="comida" class="active" data-lucide="utensils"></i>
+                    <i id="banho" data-lucide="bath"></i>
+                    <i id="brinquedo" data-lucide="puzzle"></i>
+                </div>
+            </div>
+            <div class="buttons">
+                <div id="btn-left" onclick="left()"></div>
+                <div id="btn-strt" onclick="start()"></div>
+                <div id="btn-right" onclick="right()"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
