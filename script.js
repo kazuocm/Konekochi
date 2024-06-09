@@ -1,5 +1,5 @@
 let healthbar = document.querySelector('#healthbar')
-let active = querySelector('.active')
+let active = document.querySelector('.active')
 
 function acao() {
     let active = document.querySelector('.active');
@@ -58,4 +58,3 @@ setInterval(() => {
     console.log("Chamando perdervida()...");
     perdervida();
 }, 1000);
-
