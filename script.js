@@ -57,4 +57,4 @@ function perdervida() {
 setInterval(() => {
     console.log("Chamando perdervida()...");
     perdervida();
-}, 1000);
+}, 2000);
